@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-25T15:33:38 PDT" name="Suite" finished-at="2021-08-25T15:33:38 PDT" duration-ms="81">
+  <suite started-at="2021-10-07T20:34:07 PDT" name="Default suite" finished-at="2021-10-07T20:34:07 PDT" duration-ms="46">
     <groups>
+      <group name="smoke Test">
+        <method signature="Example_1.STest()[pri:0, instance:com.Test.Example_1@23986957]" name="STest" class="com.Test.Example_1"/>
+      </group> <!-- smoke Test -->
     </groups>
-    <test started-at="2021-08-25T15:33:38 PDT" name="myDemo_1" finished-at="2021-08-25T15:33:38 PDT" duration-ms="7">
-    </test> <!-- myDemo_1 -->
-    <test started-at="2021-08-25T15:33:38 PDT" name="myDemo_2" finished-at="2021-08-25T15:33:38 PDT" duration-ms="29">
-      <class name="com.Test.Example_5">
-        <test-method signature="LoginAPI()[pri:0, instance:com.Test.Example_5@6973bf95]" started-at="2021-08-25T15:33:38 PDT" name="LoginAPI" finished-at="2021-08-25T15:33:38 PDT" duration-ms="6" status="PASS">
+    <test started-at="2021-10-07T20:34:07 PDT" name="Default test" finished-at="2021-10-07T20:34:07 PDT" duration-ms="46">
+      <class name="com.Test.Example_1">
+        <test-method signature="App()[pri:0, instance:com.Test.Example_1@23986957]" started-at="2021-10-07T20:34:07 PDT" name="App" finished-at="2021-10-07T20:34:07 PDT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginAPI -->
-      </class> <!-- com.Test.Example_5 -->
-    </test> <!-- myDemo_2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- App -->
+        <test-method signature="STest()[pri:0, instance:com.Test.Example_1@23986957]" started-at="2021-10-07T20:34:07 PDT" name="STest" finished-at="2021-10-07T20:34:07 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- STest -->
+        <test-method signature="demo1()[pri:0, instance:com.Test.Example_1@23986957]" started-at="2021-10-07T20:34:07 PDT" name="demo1" finished-at="2021-10-07T20:34:07 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+      </class> <!-- com.Test.Example_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
