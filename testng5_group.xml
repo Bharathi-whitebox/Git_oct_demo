@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Regression">
+  	  
+  	  <groups>
+  	 	 	<run>
+  	 			 <include name = "smoke Test" />     <!-- if want to run excluding this 3 test use  <exclude name = "smoke" /> -->
+  	  		</run>
+  	  
+  	  </groups>  	  
+  	  
+  	  <classes>     	
+     	 <class name="com.Test.Example_1"/>
+     	 <class name="com.Test.Example_2"/>
+     	 <class name="com.Test.Example_3"/> 
+         <class name="com.Test.Example_4"/>
+         <class name="com.Test.Example_5"/>         
+   	 </classes>
+   
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite --> 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Test.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="myDemo_1(failed)">
+    <parameter name="URL1" value="WBL111.com"/>
+    <parameter name="username" value="abc"/>
+    <classes>
+      <class name="com.Test.Example_B_Parameterize2">
+        <methods>
+          <include name="mobileSignOut"/>
+        </methods>
+      </class> <!-- com.Test.Example_B_Parameterize2 -->
+    </classes>
+  </test> <!-- myDemo_1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-25T15:33:38 PDT" name="Suite" finished-at="2021-08-25T15:33:38 PDT" duration-ms="81">
+    <groups>
+    </groups>
+    <test started-at="2021-08-25T15:33:38 PDT" name="myDemo_1" finished-at="2021-08-25T15:33:38 PDT" duration-ms="7">
+    </test> <!-- myDemo_1 -->
+    <test started-at="2021-08-25T15:33:38 PDT" name="myDemo_2" finished-at="2021-08-25T15:33:38 PDT" duration-ms="29">
+      <class name="com.Test.Example_5">
+        <test-method signature="LoginAPI()[pri:0, instance:com.Test.Example_5@6973bf95]" started-at="2021-08-25T15:33:38 PDT" name="LoginAPI" finished-at="2021-08-25T15:33:38 PDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPI -->
+      </class> <!-- com.Test.Example_5 -->
+    </test> <!-- myDemo_2 -->
+  </suite> <!-- Suite -->
+</testng-results>
